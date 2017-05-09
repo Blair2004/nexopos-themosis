@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} nexopos-themosis [NC]
+RewriteCond %{REQUEST_URI} ^/$
