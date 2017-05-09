@@ -1,6 +1,6 @@
 <?php
 
-namespace Tld\Domain\Plugin\Controllers;
+namespace Com\Nexopos\Store\Controllers;
 
 use Themosis\Route\BaseController;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tld\Domain\Plugin\Services;
+namespace Com\Nexopos\Store\Services;
 
 use Themosis\Facades\Route;
 use Themosis\Foundation\ServiceProvider;
@@ -14,9 +14,9 @@ class RoutingService extends ServiceProvider
     public function register()
     {
         Route::group([
-            'namespace' => 'Tld\Domain\Plugin\Controllers'
+            'namespace' => 'Com\Nexopos\Store\Controllers'
         ], function () {
-            require themosis_path('plugin.tld.domain.plugin.resources').'routes.php';
+            require themosis_path('plugin.com.nexopos.store.resources').'routes.php';
         });
     }
 }
