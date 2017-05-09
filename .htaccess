@@ -2,3 +2,4 @@ Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} nexopos-themosis [NC]
 RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^(.*)$ /nexopos-themosis/public_html/$1 [L]

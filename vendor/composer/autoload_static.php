@@ -10,7 +10,7 @@ class ComposerStaticInitb5cba4441cc2e83a14f10472ab0a579a
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
-        '457b350f837f9520e0d22dacd2ad6ba7' => __DIR__ . '/../..' . '/htdocs/content/mu-plugins/themosis-framework/src/Themosis/helpers.php',
+        '457b350f837f9520e0d22dacd2ad6ba7' => __DIR__ . '/../..' . '/public_html/content/mu-plugins/themosis-framework/src/Themosis/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -87,7 +87,7 @@ class ComposerStaticInitb5cba4441cc2e83a14f10472ab0a579a
         ),
         'Themosis\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/htdocs/content/mu-plugins/themosis-framework/src/Themosis',
+            0 => __DIR__ . '/../..' . '/public_html/content/mu-plugins/themosis-framework/src/Themosis',
         ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (

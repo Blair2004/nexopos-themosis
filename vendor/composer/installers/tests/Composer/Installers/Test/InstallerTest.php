@@ -261,7 +261,7 @@ class InstallerTest extends TestCase
             array('decibel-app', 'app/someapp/', 'author/someapp'),
             array('dokuwiki-plugin', 'lib/plugins/someplugin/', 'author/someplugin'),
             array('dokuwiki-template', 'lib/tpl/sometemplate/', 'author/sometemplate'),
-            array('dolibarr-module', 'htdocs/custom/my_module/', 'shama/my_module'),
+            array('dolibarr-module', 'public_html/custom/my_module/', 'shama/my_module'),
             array('drupal-module', 'modules/my_module/', 'shama/my_module'),
             array('drupal-theme', 'themes/my_module/', 'shama/my_module'),
             array('drupal-profile', 'profiles/my_module/', 'shama/my_module'),

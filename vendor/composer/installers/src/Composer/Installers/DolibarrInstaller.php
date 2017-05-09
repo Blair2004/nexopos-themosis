@@ -11,6 +11,6 @@ class DolibarrInstaller extends BaseInstaller
 {
     //TODO: Add support for scripts and themes
     protected $locations = array(
-        'module' => 'htdocs/custom/{$name}/',
+        'module' => 'public_html/custom/{$name}/',
     );
 }
