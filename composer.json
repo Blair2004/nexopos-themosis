@@ -1,6 +1,6 @@
 {
-  "name": "themosis/themosis",
-  "description": "The Themosis framework. A WordPress framework.",
+  "name": "blair2004/nexopos-themosis-website",
+   "description": "A short description of what your package does",
   "keywords": ["themosis", "framework", "WordPress"],
   "license": "GPL-2.0+",
   "authors": [
@@ -8,7 +8,11 @@
       "name": "Julien Lambé",
       "email": "julien@themosis.com",
       "homepage": "http://www.themosis.com/"
-    }
+    }, {
+		"name" : "Blair Jersyer",
+		"email" : "blair@nexopos.com",
+		"homepage" : "http://nexopos.com"
+	}
   ],
   "type": "project",
   "repositories":[
